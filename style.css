@@ -93,6 +93,10 @@ align-items: center;
 }
 
 /* course_style */
+.course_info{
+    display: flex;
+
+}
 .course .course_banner img{
     width: 266px;
     height: 141px;
