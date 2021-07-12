@@ -93,13 +93,23 @@ align-items: center;
 }
 
 /* course_style */
+.courses{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+}
 .course_info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 .course .course_banner img{
     width: 266px;
     height: 141px;
+}
+.course_title{
+    font-weight: 500px;
+    font-size: 20.0336px;
 }
 /* ----------RATINGS---------- */
 .fa-star{
@@ -110,5 +120,9 @@ align-items: center;
 }
 .fa-star.empty{
     color: #AEAEAE;
+}
+.course_duration{
+    background-color: #FFC014;
+    border-radius: 10px;
 }
 
