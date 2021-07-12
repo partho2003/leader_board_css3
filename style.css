@@ -91,3 +91,20 @@ align-items: center;
     text-decoration: none;
     color: #562EFF;
 }
+
+/* course_style */
+.course .course_banner img{
+    width: 266px;
+    height: 141px;
+}
+/* ----------RATINGS---------- */
+.fa-star{
+    font-size: 12px
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
