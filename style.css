@@ -97,6 +97,7 @@ align-items: center;
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
     column-gap: 24px;
+    /* later */
 }
 .course_info{
     display: flex;
@@ -117,6 +118,9 @@ align-items: center;
     color: #ED6B4F;
     font-weight: normal;
     
+}
+.course{
+    margin-top: 20px;
 }
 /* ----------RATINGS---------- */
 .fa-star{
